@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ciclos</title>
+    <script type="Text/javascript">
+
+var c, t, b;
+
+function calcular()
+{
+    var numero = Number(t.value);
+    var calculo = 1;
+    var n = 1;
+    while(n <= numero)
+    {
+        calculo = calculo * n;
+        n++;
+    }
+    c.innerHTML = calculo;
+}
+function inicio()
+{
+   c = document.getElementById("caja");
+   t = document.getElementById("alejandra");
+   b = document.getElementById("botoncito");
+   
+   b.addEventListener("click", calcular);
+}   
+   
+/*   WHILE = MIENTRAS = mientras el residuo de la operancion sea menor o igual a 50 se ejecuta el ciclo
+    var = residuo;
+    while(numeros <= 50)
+    {
+        residuo = numeros % 2;
+        if(residuo == 0)
+        {
+            c.innerHTML += " " + numeros;
+        }
+        numeros++;
+    }
+*/
+    </script>
+</head>
+<body>
+    <input type="text" id="alejandra" />
+    <input type="button" id="botoncito"  value="Tocame" />
+    <div id="caja"></div>
+    <div>Otra caja</div>
+    <script type="Text/javascript">
+    inicio();
+    </script>
+</body>
+</html>

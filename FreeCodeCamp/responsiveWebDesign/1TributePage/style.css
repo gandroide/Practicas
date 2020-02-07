@@ -1,0 +1,9 @@
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+#tribute-info {
+    width: 80%;
+    text-align: justify;
+}

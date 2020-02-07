@@ -1,0 +1,28 @@
+.espacioFondo {
+    background-image: url("C:/Users/ajont/Documents/repos/Practicas/codecademy/projects/pattern.jpeg");
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+  }
+.subTitulo1 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+p {
+    font-family: Helvetica;
+    color: blue;
+}
+.subTitulo2 {
+    background-color: lightcoral;
+}
+.subTitulo3 {
+    background-color: skyblue;
+}
+h3 {
+    font-family: Helvetica;
+}
